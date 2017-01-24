@@ -1,0 +1,81 @@
+html{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: helvetica,arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.8);
+}
+
+#container{
+    width: 600px;
+    margin: 20px auto;
+    
+}
+
+p{
+    margin: 10px 0;
+}
+
+h1{
+    padding: 10px 0;
+}
+#contact{
+    background: #e3e3e3;
+    padding: 20px;
+    position:relative;
+}
+
+.js #contact{
+    display: none;
+    position: absolute;
+    width:inherit;
+    top: 0px;
+}
+
+ul li{
+    list-style-type: none;
+    display: block;
+}
+
+label,input[type="text"],input[type="email"],textarea{
+    margin: 5px 0;
+    width: 100%;
+}
+input[type="text"],input[type="email"],textarea,button
+{
+    padding: 5px;
+}
+
+button.btn{
+    font-weight: bold;
+    color: rgba(0,0,0, 0.8);
+}
+button.btn:hover{
+    cursor: pointer;
+    border: 1px solid #aaa;
+    color: #333;
+}
+
+span.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    line-height: 1em;
+}
+span.close:hover{
+    cursor: pointer;
+}
